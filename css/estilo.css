@@ -1,0 +1,97 @@
+body{
+	background: url(../imagens/fundo.jpg);
+	font-family:   Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background-image: linear-gradient(to right, rgb(230, 225, 225), gray);
+}
+
+/* configurando parte principal*/
+
+.imagemLogo{
+	margin-top: 10px;
+	text-align: center;
+}
+
+h2{
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	color: #4F4F4F;
+}
+
+section{
+	border-radius: 8px ;
+	max-width: 400px ;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+/* configurando formulário*/
+
+input#email{
+
+	display: block;
+	margin:0 auto;
+	margin-bottom: 8px;
+	border-radius: 6px;
+	border: 1px solid #66686a;
+	outline: none;
+	width: 299px;
+	height: 53px;
+}
+
+input#senha{
+	display: block;
+	margin:0 auto;
+	border-radius: 7px;
+	border: 1px solid #66686a;
+	outline: none;
+	width: 299px;
+	height: 53px;
+}
+
+input:hover{
+	border-radius:4px;
+	box-shadow: 0px 0px 5px 0px #373938;
+	border:1px solid  #373938;
+	outline:none; 
+}
+
+input#check{
+	display: inline;
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 140px;
+	margin-bottom: 20px;
+}
+
+label{
+	color: #4F4F4F;
+	font-size: 18px;
+}
+
+.centro{
+	text-align: center;
+}
+
+button{
+	width: 299px;
+	height: 53px;
+
+	color: white;
+	border-radius: 3px;
+
+}
+/* rodapé */
+
+footer{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;;
+	font-size: 13px;
+	color: #4F4F4F;
+	margin-top: 30px;
+
+}
+
+
